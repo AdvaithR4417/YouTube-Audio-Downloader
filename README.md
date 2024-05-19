@@ -24,18 +24,18 @@ This Python script allows you to download the audio from YouTube videos based on
    pip install pytube
 
 #Usage
-Prepare an input text file named songs.txt in the same directory as your script. The file should contain the list of song names, one per line. Example:
+1.Prepare an input text file named songs.txt in the same directory as your script. The file should contain the list of song names, one per line. Example:
 
-Copy code
+
 Song Name 1
 Song Name 2
 Song Name 3
-Run the script:
 
-bash
-Copy code
+2.Run the script:
+
 python download_songs.py
-The script will:
+
+3.The script will:
 
 Read the song names from songs.txt.
 Search for each song on YouTube.
